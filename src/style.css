@@ -1,21 +1,21 @@
-body { background-color: beige;
+body { background-color: #FFF2D7;
 text-align: center;
 font-family: serif;}
 h1{ font-size: 36px;
 font-weight: 800;
 line-height: 1.5;
-color: rgb(237, 38, 177);
+color: black;
 text-align: center;
 }
 .container { margin:120px auto;
 max-width: 600px;
-background-color: rgb(234, 165, 176);}
+background-color:#e79786;}
 header{ margin-bottom: 30px;}
 form{ padding: 30px;
-background-color: white;
+background-color:#FFF2D7 ;
 border-radius: 10px;
 display: flex;
-box-shadow: 0px 20px 60px black;
+box-shadow: 0px 10px 10px black;
 margin-bottom: 30px;}
 
 
@@ -28,7 +28,7 @@ line-height: 20px;
 color: antiquewhite;
 }
 .permission{ margin-left:10px ;
-    background-color: palevioletred;
+    background-color:#D8AE7E;
     color: white;
     border:none;
     border-radius: 50px;
@@ -37,11 +37,11 @@ width: 150px;
 font-size: 16px;}
 
 .poem { font-size: 14px;
-background-color: pink;
+background-color: #FFF2D7;
 padding: 20px;
 line-height: 24px;
 border-left: 3px solid salmon;
-box-shadow: 0px 20px 60px black;}
+box-shadow: 0px 10px 10px rgb(83, 79, 79);}
 
 footer{ text-align: center;
 font-size: 13px;
