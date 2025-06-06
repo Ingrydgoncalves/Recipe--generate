@@ -1,6 +1,6 @@
 function generaterecipe (event) {
     event.preventDefault ();
-    let recipeDiv = document.querySelector("#recipe");
+    let recipediv = document.querySelector("#recipe");
 
     new Typewriter("#recipe", {
         strings: ["Food is my way of expressing love, culture, and passion."],
@@ -9,5 +9,5 @@ function generaterecipe (event) {
         cursor: "",
       });
     }
-let putingredienteform = document.querySelector("#putingredientes");
-putingredienteform.addEventListener("submit", generaterecipe);
+let putingredientesform = document.querySelector("#putingredientes");
+putingredientesform.addEventListener("submit", generaterecipe);
