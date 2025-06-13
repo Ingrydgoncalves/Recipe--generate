@@ -19,12 +19,12 @@ function generaterecipe (event) {
     let recipediv = document.querySelector("#recipe");
     let apikey = "ce024dff2t11ac0410oc03803af4bc0a";
     let prompt= `User instructions: Generate a recipe with ${instructions.value}`;
-    let context= `Generate a simple recipe with ingrident of instruction. Your mission is make a recipe in basic html, Separate the line with </br>. Make maxim 10 lines.  And dont show the  symbol  html in page. I want only all  letters of answer in black color,especially the title of recipe in black color. Follow the all instructions.`;
+    let context= `Generate a simple recipe with ingrident of instruction. Your mission is make a recipe in basic html, Separate the line with </br>. Make maxim 10 lines.  And dont show the  symbol  html in page. All text is must to be in black color . Follow  all instructions.`;
     let apiurl= `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apikey}`
 
-let recipeelement=document.querySelector("#poem");
+let recipeelement=document.querySelector("#recipe");
 recipeelement.classList.remove("hidden");
-recipeelement.innerHTML = `<div class="generating> ⏳Generating a recipe about ${instructions.value}</div>`;
+recipeelement.innerHTML = `<div class="generating"> ⏳Generating a recipe with ${instructions.value}</div>`;
 
 
 

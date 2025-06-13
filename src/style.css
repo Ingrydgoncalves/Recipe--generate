@@ -2,7 +2,7 @@ body { background-color:#e79786;
 text-align: center;
 font-family: serif;
 }
-h1{ font-size: 46px;
+.original{ font-size: 46px;
 font-weight: 800;
 line-height: 1.5;
 color:white;
@@ -87,4 +87,8 @@ margin-top: 30px;}
 
 
 a{ color: #65000b;}
- .generating{ animation: blink is step-start 5s infinite;}
+ .generating {
+    animation: blink 1.5s infinite;
+    animation-fill-mode: both;
+   font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; }
