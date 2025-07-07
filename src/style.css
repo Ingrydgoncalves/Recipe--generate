@@ -1,26 +1,27 @@
-body { background-image: url("https://i.postimg.cc/gjqvgcRp/massimo-virgilio-Sj-KLWW-e-WIo-unsplash.jpg");
+body { background-image: url("https://i.postimg.cc/JhrHfHDs/brooke-lark-w-Mzx2n-Bdeng-unsplash.jpg");
+  background-size: cover;
 text-align: center;
 font-family: serif;
 }
 .original{ font-size: 46px;
 font-weight: 800;
 line-height: 1.5;
-color:white;
+color:black;
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{ font-size: 32px;
 font-weight: 800;
 line-height: 1.5;
-color: white;
+color: black;
 text-align: center;}
 .container { margin:120px auto;
 max-width: 600px;
-background-color:#e79786;}
+background-color:rgba(255, 255, 255, 0.5);}
 header{ margin-bottom: 30px;}
 .mixingredients{ 
      padding: 30px;
-background-color:#FFF2D7 ;
+background-color:rgba(255, 255, 255, 0.5) ;
 border-radius: 10px;
 margin-top: 0%;
 box-shadow: 0px 10px 10px rgb(90, 88, 88);
@@ -47,7 +48,7 @@ line-height: 20px;
 color: black;
 }
 .permission{ margin-left:10px ;
-    background-color:#f8c471;
+    background-color:goldenrod;
     color: white;
     border:none;
     border-radius: 50px;
@@ -56,7 +57,7 @@ width: 150px;
 font-size: 16px;}
 
 .recipe { font-size: 14px;
-background-color: #FFF2D7;
+background-color: rgba(255, 255, 255, 0.5);
 padding: 20px;
 line-height: 24px;
 border-left: 3px solid salmon;
